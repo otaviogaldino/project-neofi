@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font);
+}
+
+button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+:root{
+    --green: #9DFF3A;
+    --gradient: linear-gradient(to bottom, #75A941, #3A7500);
+    --white: #E5E5E5;
+    --gray1: #999999;
+    --gray2: #4D4D4D;
+    --gray3: #2E2E2E;
+    --gray4: #0F0F0F;
+
+    --font: "Alexandria", sans-serif;
+}
