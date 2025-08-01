@@ -333,6 +333,7 @@ main {
 }
 
 .future-card-text > h3 {
+  font-weight: normal;
   font-size: 20px;
   color: var(--white);
 }
@@ -347,6 +348,154 @@ main {
 }
 
 
+/* completely */
+.completely-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  padding: 60px 120px;
+  background-color: var(--gray4);
+}
+
+.completely-text {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.statistics {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 41px;
+  border: 1px solid var(--gray3);
+  border-radius: 24px;
+  padding: 20px 12px;
+}
+
+.statistics > p {
+  color: var(--green);
+}
+
+.completely-text > h2 {
+  color: var(--white);
+  font-size: 48px;
+}
+
+.completely-text > p {
+  color: var(--gray1);
+  font-size: 18px;
+  text-align: center;
+  width: 644px;
+}
+
+.completely-statistic-group {
+  display: flex;
+  gap: 72px;
+}
+
+.completely-statistic {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.completely-statistic > h3 {
+  font-size: 48px;
+  color: var(--green);
+}
+
+.completely-statistic > p {
+  color: var(--gray1);
+  font-size: 20px;
+}
+/* end section */
+
+.blockchain-content {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  padding: 60px 156px;
+  background-color: black;
+}
+
+.blockchain-text {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.blockchain-text > h2 {
+  color: var(--white);
+  font-size: 48px;
+}
+
+.blockchain-text > p {
+  color: var(--gray1);
+  font-size: 18px;
+  width: 644px;
+}
+
+.blockchain-image-and-cards {
+  display: flex;
+  gap: 70px;
+  justify-content: center;
+  align-items: center;
+}
+
+.blockchain-card-group {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.blockchain-card {
+  width: 624px;
+  height: 156px;
+  padding: 30px 20px;
+  background-color: var(--gray4);
+  border-radius: 20px;
+  border: 1px solid var(--gray1);
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+  transition: 0.2s;
+}
+
+.blockchain-card:hover {
+  transform: scale(1.02);
+}
+
+.blockchain-card > img {
+  width: 30px;
+  height: 30px;
+}
+
+.blockchain-card-text {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.blockchain-card-text > h3 {
+  color: var(--white);
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.blockchain-card-text > p {
+  color: var(--gray1);
+  font-size: 16px;
+}
 
 @media (max-width: 480px) {
   body{
@@ -440,6 +589,7 @@ main {
 
   .future-text {
     width: 100%;
+    padding: 20px;
   }
   .future-text > h2 {
     font-size: 30px;
@@ -457,5 +607,68 @@ main {
 
   .future-card {
     width: 90%;
+  }
+
+  .completely-content {
+    width: 100%;
+  }
+
+  .completely-text {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .completely-text > h2 {
+    font-size: 30px;
+  }
+
+  .completely-text > p {
+    width: 176px;
+  }
+
+  .completely-statistic-group {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .blockchain-content {
+    width: 100%;
+  }
+
+  .blockchain-text {
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .blockchain-text > h2 {
+    font-size: 30px;
+  }
+
+  .blockchain-text > p {
+    width: 176px;
+  }
+
+  .blockchain-image-and-cards {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .blockchain-image > img {
+    display: none;
+  }
+
+  .blockchain-card {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
+
+  .blockchain-card-text > h3 {
+    font-size: 15px;
+  }
+
+  .blockchain-card-text > p {
+    font-size: 10px;
   }
 }
