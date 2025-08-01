@@ -70,6 +70,22 @@ header {
   border-radius: 40px;
 }
 
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  cursor: pointer;
+}
+
+.menu-toggle > span {
+  width: 30px;
+  height: 3px;
+  background-color: var(--green);
+  border-radius: 2px;
+}
+
 /* responsividade */
 /* @media (max-width: 768px) {
   body {
@@ -311,8 +327,7 @@ main {
   justify-content: center;
   align-items: center;
   gap: 36px;
-  background:
-    linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)) padding-box,
+  background: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)) padding-box,
     linear-gradient(116deg, #4d4d4d, #b3b3b3) border-box;
   border-radius: 12px;
   border: 1px solid transparent;
@@ -346,7 +361,6 @@ main {
 .future-card:hover {
   transform: scale(1.02);
 }
-
 
 /* completely */
 .completely-content {
@@ -498,7 +512,7 @@ main {
 }
 
 @media (max-width: 480px) {
-  body{
+  body {
     width: 100%;
     height: auto;
   }
@@ -510,7 +524,7 @@ main {
     flex-direction: column;
     gap: 20px;
     align-items: center;
-    height: 258px;
+    height: auto;
   }
 
   .header-nav {
@@ -523,14 +537,21 @@ main {
     gap: 10px;
   }
 
-  main{
+  .header-nav,
+  .header-buttons {
+    display: none;
+  }
+  .menu-toggle {
+    display: flex;
+  }
+
+  main {
     margin-top: -1px;
     width: 100%;
     height: auto;
   }
   .main-content {
     flex-direction: column;
-
   }
 
   .main-content > img {
@@ -547,13 +568,11 @@ main {
     width: 100%;
     padding: 20px;
     text-align: center;
-    background: 
-      linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
       url(../assets/images/main/img-main.svg);
     background-size: 80%;
     background-position: center;
     background-repeat: no-repeat;
-
   }
 
   .main-text > h1 {
@@ -575,12 +594,12 @@ main {
     width: 100%;
   }
 
-  .patners-logos{
+  .patners-logos {
     flex-direction: column;
   }
 
   .patners-logos > button > img {
-    width: 100px;    
+    width: 100px;
   }
 
   .future-content {
@@ -639,7 +658,7 @@ main {
     width: 100%;
     padding: 20px;
   }
-  
+
   .blockchain-text > h2 {
     font-size: 30px;
   }
@@ -653,7 +672,7 @@ main {
     flex-direction: column;
     align-items: center;
   }
-  
+
   .blockchain-image > img {
     display: none;
   }
