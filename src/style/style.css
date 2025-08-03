@@ -529,6 +529,7 @@ main {
 
   .header-nav {
     height: auto;
+    justify-content: center;
   }
 
   .header-nav > nav {
