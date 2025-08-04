@@ -550,6 +550,7 @@ main {
   flex-direction: column;
   gap: 30px;
   width: 792px;
+  margin-bottom: 62px;
 }
 
 .faq-question-content{
@@ -785,4 +786,27 @@ main {
   .blockchain-card-text > p {
     font-size: 10px;
   }
+
+  .faq-content {
+    padding: 0px 20px;
+  }
+  
+  .faq-text > h2 {
+    font-size: 30px;
+  }
+
+  .faq-text > p {
+    width: 100%;
+  }
+
+  .faq-questions-group {
+    width: 90%;
+    align-items: center;
+  }
+
+  .faq-question-content > h3 {
+    font-size: 14px;
+    padding: 16px 20px;
+  }
+  
 }
