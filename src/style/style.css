@@ -515,7 +515,7 @@ main {
   background-color: var(--gray4);
 }
 
-.faq-content{
+.faq-content {
   padding: 0px 318px;
   display: flex;
   flex-direction: column;
@@ -553,7 +553,7 @@ main {
   margin-bottom: 62px;
 }
 
-.faq-question-content{
+.faq-question-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -574,7 +574,6 @@ main {
   color: var(--green);
 }
 
-
 .faq-question-content > img {
   width: 16px;
   height: 16px;
@@ -589,7 +588,6 @@ main {
 
 .faq-answer {
   display: none;
-
 }
 
 .faq-answer.active {
@@ -656,13 +654,13 @@ main {
 }
 
 .revolutionary-text > button > p {
-  color: var(--white)black;
+  color: var(--white) black;
   font-size: 18px;
 }
 
 footer {
   width: 100%;
-  padding: 0px 78px 60px 78px; 
+  padding: 0px 78px 60px 78px;
   background-color: black;
 }
 
@@ -719,7 +717,6 @@ footer {
   transform: scale(1.02);
 }
 
-
 .footer-group-two {
   display: flex;
   flex-direction: column;
@@ -751,7 +748,7 @@ footer {
 }
 
 .footer-input button {
-  background-color: #ADFF2F;
+  background-color: #adff2f;
   border: none;
   padding: 10px 16px;
   cursor: pointer;
@@ -942,7 +939,7 @@ footer {
   .faq-content {
     padding: 0px 20px;
   }
-  
+
   .faq-text > h2 {
     font-size: 30px;
   }
@@ -985,7 +982,6 @@ footer {
     height: 50px;
     margin-top: 20px;
   }
-  
 
   footer {
     padding: 20px;
@@ -1019,5 +1015,4 @@ footer {
     align-items: center;
     text-align: center;
   }
-
 }
