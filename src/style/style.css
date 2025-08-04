@@ -960,5 +960,64 @@ footer {
     font-size: 14px;
     padding: 16px 20px;
   }
+
+  .revolutionary {
+    width: 100%;
+    padding: 60px 20px;
+  }
+
+  .revolutionary-text {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .revolutionary-text > h2 {
+    font-size: 30px;
+    width: 100%;
+  }
+
+  .revolutionary-text > p {
+    width: 100%;
+  }
+
+  .revolutionary-text > button {
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+  }
   
+
+  footer {
+    padding: 20px;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-group-one {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+  .footer-group-one > img {
+    margin-bottom: 20px;
+  }
+
+  .footer-links {
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .footer-links > nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-group-two {
+    align-items: center;
+    text-align: center;
+  }
+
 }
