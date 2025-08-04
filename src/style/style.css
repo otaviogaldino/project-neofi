@@ -604,6 +604,62 @@ main {
   font-size: 16px;
 }
 
+/* end faq */
+
+.revolutionary {
+  width: 100%;
+  height: auto;
+  padding: 237px 434px 130px 434px;
+  background-color: black;
+}
+
+.revolutionary-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+}
+
+.revolutionary-features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 137px;
+  height: 41px;
+  border: 1px solid var(--gray3);
+  border-radius: 24px;
+  padding: 20px 12px;
+}
+
+.revolutionary-features > p {
+  color: var(--green);
+}
+
+.revolutionary-text > h2 {
+  color: var(--white);
+  font-size: 48px;
+  width: 878px;
+}
+
+.revolutionary-text > p {
+  color: var(--gray1);
+  font-size: 18px;
+  width: 644px;
+}
+
+.revolutionary-text > button {
+  width: 151px;
+  height: 50px;
+  background-color: var(--green);
+}
+
+.revolutionary-text > button > p {
+  color: var(--white)black;
+  font-size: 18px;
+}
+
 
 @media (max-width: 480px) {
   body {
