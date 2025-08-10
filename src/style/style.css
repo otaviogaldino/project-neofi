@@ -754,265 +754,45 @@ footer {
   cursor: pointer;
 }
 
-@media (max-width: 480px) {
-  body {
-    width: 100%;
-    height: auto;
-  }
-  header {
-    height: auto;
-  }
-  .header-content {
-    width: 100%;
-    flex-direction: column;
-    gap: 20px;
-    align-items: center;
-    justify-content: center;
-    height: auto;
-  }
+@media (max-width: 1024px) {
+    body {
+      width: 100%;
+    }
+    header {
+      height: auto;
+    }
+    .header-content {
+      flex-direction: column;
+      gap: 20px;
+      padding: 20px;
+    }
+    main {
+      width: 100%;
+      height: auto;
+    }
 
-  .header-nav {
-    height: auto;
-    justify-content: center;
-  }
+    .main-content {
+      width: 100%;
+      height: auto;
+      gap: 40px;
+    }
 
-  .header-nav > nav {
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-  }
 
-  .header-nav,
-  .header-buttons {
-    display: none;
-  }
-  .menu-toggle {
-    display: flex;
-  }
+    .main-text {
+      width: 50%;
+      height: auto;
+      align-items: center;
+      text-align: center;
+      margin: 20px 0px 20px 0px;
+    }
+    .main-text > h1 {
+      font-size: 32px;
+    }
 
-  main {
-    margin-top: -1px;
-    width: 100%;
-    height: auto;
-  }
-  .main-content {
-    flex-direction: column;
-  }
+    .main-content > img {
+      width: 30%;
+      height: auto;
+    }
+    
 
-  .main-content > img {
-    display: none;
-  }
-
-  .decentralised {
-    width: 50%;
-    opacity: 80%;
-    margin-left: 25%;
-  }
-
-  .main-text {
-    width: 100%;
-    padding: 20px;
-    text-align: center;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-      url(../assets/images/main/img-main.svg);
-    background-size: 80%;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-
-  .main-text > h1 {
-    font-size: 30px;
-  }
-
-  .main-text > p {
-    color: var(--white);
-  }
-
-  .main-buttons {
-    flex-direction: column;
-    width: 100%;
-    height: auto;
-    align-items: center;
-  }
-
-  .patners {
-    width: 100%;
-  }
-
-  .patners-logos {
-    flex-direction: column;
-  }
-
-  .patners-logos > button > img {
-    width: 100px;
-  }
-
-  .future-content {
-    width: 100%;
-  }
-
-  .future-text {
-    width: 100%;
-    padding: 20px;
-  }
-  .future-text > h2 {
-    font-size: 30px;
-  }
-
-  .future-text > p {
-    width: 176px;
-  }
-
-  .future-cards {
-    flex-direction: column;
-    align-items: center;
-    margin-top: 80px;
-  }
-
-  .future-card {
-    width: 90%;
-  }
-
-  .completely-content {
-    width: 100%;
-  }
-
-  .completely-text {
-    width: 100%;
-    padding: 20px;
-  }
-
-  .completely-text > h2 {
-    font-size: 30px;
-  }
-
-  .completely-text > p {
-    width: 176px;
-  }
-
-  .completely-statistic-group {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .blockchain-content {
-    width: 100%;
-  }
-
-  .blockchain-text {
-    width: 100%;
-    padding: 20px;
-  }
-
-  .blockchain-text > h2 {
-    font-size: 30px;
-  }
-
-  .blockchain-text > p {
-    width: 176px;
-  }
-
-  .blockchain-image-and-cards {
-    width: 100%;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .blockchain-image > img {
-    display: none;
-  }
-
-  .blockchain-card {
-    flex-direction: column;
-    width: 100%;
-    height: auto;
-  }
-
-  .blockchain-card-text > h3 {
-    font-size: 15px;
-  }
-
-  .blockchain-card-text > p {
-    font-size: 10px;
-  }
-
-  .faq-content {
-    padding: 0px 20px;
-  }
-
-  .faq-text > h2 {
-    font-size: 30px;
-  }
-
-  .faq-text > p {
-    width: 100%;
-  }
-
-  .faq-questions-group {
-    width: 90%;
-    align-items: center;
-  }
-
-  .faq-question-content > h3 {
-    font-size: 14px;
-    padding: 16px 20px;
-  }
-
-  .revolutionary {
-    width: 100%;
-    padding: 60px 20px;
-  }
-
-  .revolutionary-text {
-    width: 100%;
-    padding: 20px;
-  }
-
-  .revolutionary-text > h2 {
-    font-size: 30px;
-    width: 100%;
-  }
-
-  .revolutionary-text > p {
-    width: 100%;
-  }
-
-  .revolutionary-text > button {
-    width: 100%;
-    height: 50px;
-    margin-top: 20px;
-  }
-
-  footer {
-    padding: 20px;
-  }
-
-  .footer-content {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .footer-group-one {
-    flex-direction: column;
-    align-items: center;
-    margin: 0;
-  }
-  .footer-group-one > img {
-    margin-bottom: 20px;
-  }
-
-  .footer-links {
-    align-items: center;
-    margin-bottom: 20px;
-  }
-
-  .footer-links > nav {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .footer-group-two {
-    align-items: center;
-    text-align: center;
-  }
 }
