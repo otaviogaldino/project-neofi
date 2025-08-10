@@ -861,4 +861,11 @@ footer {
     width: 500px;
   }
 
+  .footer-content {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 20px 0px;
+  }
 }
