@@ -603,60 +603,51 @@ main {
 }
 
 /* end faq */
-
-.revolutionary {
-  width: 100%;
-  height: auto;
-  padding: 237px 434px 130px 434px;
-  background-color: black;
-}
-
-.revolutionary-text {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  gap: 20px;
+.landing-section {
+  background-color: #000;
+  color: #eee;
   text-align: center;
+  padding: 60px 20px;
 }
 
-.revolutionary-features {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 137px;
-  height: 41px;
-  border: 1px solid var(--gray3);
-  border-radius: 24px;
-  padding: 20px 12px;
-}
-
-.revolutionary-features > p {
+.label {
+  display: inline-block;
+  background-color: black;
   color: var(--green);
+  font-size: 12px;
+  padding: 4px 12px;
+  border-radius: 20px;
+  border: 1px solid var(--green);
+  margin-bottom: 20px;
+  letter-spacing: 0.5px;
 }
 
-.revolutionary-text > h2 {
-  color: var(--white);
-  font-size: 48px;
-  width: 878px;
+.landing-section h2 {
+  font-weight: 500;
+  font-size: 32px;
+  margin-bottom: 16px;
+  line-height: 1.2;
 }
 
-.revolutionary-text > p {
-  color: var(--gray1);
-  font-size: 18px;
-  width: 644px;
+.landing-section p {
+  font-size: 14px;
+  color: #aaa;
+  max-width: 550px;
+  margin: 0 auto 32px auto;
+  line-height: 1.4;
 }
 
-.revolutionary-text > button {
-  width: 151px;
-  height: 50px;
+.landing-section button {
   background-color: var(--green);
+  border: none;
+  color: #000;
+  font-weight: 600;
+  padding: 14px 40px;
+  font-size: 16px;
+  border-radius: 4px;
 }
 
-.revolutionary-text > button > p {
-  color: var(--white) black;
-  font-size: 18px;
-}
+
 
 footer {
   width: 100%;
@@ -815,4 +806,59 @@ footer {
       flex-direction: column;
       align-items: center;
     }
+
+}
+
+@media (max-width: 768px) {
+  .patners-logos {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .blockchain {
+    height: auto;
+  }
+
+  .blockchain-text {
+    width: 100%;
+  }
+
+  .blockchain-text > h2 {
+    width: 600px;
+  }
+  .blockchain-image {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .blockchain-image > img {
+    width: 70%;
+    height: auto;
+  }
+  .blockchain-card-group {
+    align-items: center;
+  }
+  .blockchain-card {
+    width: 100%;
+    height: auto;
+  }
+  .blockchain-card-text {
+    align-items: center;
+  }
+  .blockchain-card-text > h3 {
+    text-align: center;
+  }
+  .blockchain-card-text > p {
+    text-align: center;
+  }
+
+  .faq-content {
+    width: 100%;
+  }
+  .faq-questions-group {
+    width: 500px;
+  }
+
 }
