@@ -962,6 +962,46 @@ footer {
     width: 300px;
     height: auto;
   }
-  
+  .faq-content {
+    width: 100%;
+    padding: 0;
+  }
+  .faq-text {
+    width: 100%;
+  }
+  .faq-text > h2 {
+    font-size: 32px;
+  }
+  .faq-text > p {
+    width: 300px;
+  }
+  .faq-questions-group {
+    width: 100%;
+    align-items: center;
+  }
+  .faq-question {
+    margin-left: 10%;
+    width: 90%;
+  }
+  .faq-question-content {
+    width: 90%;
+    h3 {
+      font-size: 14px;
+    }
+  }
+  .faq-answer {
+    width: 90%;
+  }
+  .faq-answer.active {
+    width: 90%;
+    p {
+      font-size: 14px;
+    }
+  }
+  .footer-group-one {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
 
 }
