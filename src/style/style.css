@@ -614,11 +614,11 @@ main {
   display: inline-block;
   background-color: black;
   color: var(--green);
-  font-size: 12px;
-  padding: 4px 12px;
+  font-size: 14px;
+  padding: 12px 20px;
   border-radius: 20px;
-  border: 1px solid var(--green);
-  margin-bottom: 20px;
+  border: 1px solid var(--gray3);
+  margin-bottom: 24px;
   letter-spacing: 0.5px;
 }
 
@@ -868,4 +868,100 @@ footer {
     gap: 40px;
     padding: 20px 0px;
   }
+}
+
+@media (max-width: 480px) {
+  .header-nav, .header-buttons {
+    display: none;
+  }
+  .header-nav > nav {
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .menu-toggle {
+    display: flex;
+  }
+  .main-text {
+    position: relative;
+    gap: 25px;
+  }
+  .main-content > img {
+    position: absolute;
+    opacity: 0.2;
+    width: 80%;
+  }
+  .main-buttons {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+  }
+  .future-text{
+    width: 90%;
+  }
+  .future-text > h2 {
+    font-size: 32px;
+  }
+  .future-text > p {
+    width: 200%;
+  }
+  .future-cards {
+    width: 100%;
+    margin-top: 50px;
+  }
+  .future-card {
+    padding: 10px;
+    width: 300px;
+    height: auto;
+  }
+  .future-card-text {
+    width: 90%;
+    gap: 5px;
+    font-size: 14px;
+  }
+  .completely-content {
+    width: 100%;
+  }
+  .completely-text {
+    width: 90%;
+  }
+  .completely-text > h2 {
+    font-size: 32px;
+  }
+  .completely-text > p {
+    width: 200%;
+  }
+  .completely-statistic-group {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  .blockchain-content {
+    width: 100%;
+  }
+  .blockchain-text {
+    width: 90%;
+  }
+  .blockchain-text > h2 {
+    font-size: 25px;
+    width: 300px;
+  }
+  .blockchain-text > p {
+    width: 300px;
+  }
+  .blockchain-image {
+    display: none;
+  }
+  .blockchain-card-group {
+    width: 100%;
+    align-items: center;
+  }
+  .blockchain-card {
+    width: 300px;
+    height: auto;
+  }
+  
+
 }
